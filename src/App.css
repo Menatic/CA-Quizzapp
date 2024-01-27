@@ -1,0 +1,99 @@
+body{
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    display: inline;
+}
+.start{
+    width: 200px;
+    margin-top: 40vw;
+    border-radius: 8px;
+}
+.start:hover{
+    width: 240px;
+    
+}
+#box{
+    background-color: white;
+    border: #545454 solid 13px ;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5%;
+    height: 500px;
+    width: 800px;
+    padding: 0 100px 10px 10px;
+}
+#optionbox{
+    text-align: center;
+}
+.option{
+    background-color: #fffbed;
+    margin: 12px;
+    box-shadow: black 4px 4px 2px;
+    border: #808080 solid 3px;
+    border-radius: 20px;
+    height: 30px;
+    width: 820px;
+    padding: 15px;
+    font-size:25px ;
+    font-weight: 500;
+}
+
+  .option:hover {
+    background-color: rgb(113, 112, 109);
+    font-size: 28px;
+  }
+  
+.questionNo{
+    color: #4f4fab;
+    padding-left: 100px;
+}
+#On{
+    position: relative;
+    left: 400px;
+    top: 2px;
+    border: 0px;
+    outline: none;
+    background-color: rgb(206, 243, 206);
+    border-radius: 6px;
+    padding: 8px;
+    color: #ff0000;
+    background-color: rgb(207, 238, 188);
+    font-weight: 600;
+}
+#On:hover{
+    font-size: 14px;
+}
+#dark{
+    width: 50px;
+    position: absolute;
+    right: 550px;
+    top: 110px;
+}
+#dark:hover{
+    width: 55px;
+}
+.tryagain{
+    width: 300px;
+    padding-left: 100px;
+}
+#finalscore{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 90px;
+    align-items: center;
+    font-size: 3em;
+    margin: 40px;
+    color: #890000;
+    font-weight: 600;
+    
+}
+h1 {
+    text-align: center;
+    padding-left: 100px;
+    color: #3C3AB1;
+    font-size: 2em; 
+    margin-top: 20px; 
+  }

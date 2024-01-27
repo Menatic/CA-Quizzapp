@@ -4,15 +4,24 @@ import questions from "./questions";
 import Result from "./components/Result";
 import QuestionBox from "./components/QuestionBox";
 
-
-
 function App() {
+  const [mode, setMode] = useState("light");
 
+  const getBody = () => {
+    document.querySelector("body").setAttribute("class", mode);
+  };
+
+  useEffect(() => {
+    getBody();
+  }, [mode]);
+  
   return (
-    <div>
+    <>
+      <QuestionBox mode={mode} />
       
-    </div>
+    </>
   );
 }
 
 export default App;
+
